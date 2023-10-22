@@ -6,6 +6,7 @@
 2. Used "ImageDataGenerator" from keras.preprocessing.image for Data argumentation
 3. Implemented a custom CNN architecture producing a test accuracy of 92.47 % and test loss of 0.39.
 4. Implemented Resnet50, VGG 19 and InceptionV3 using transfer learning and compared the results to that of the custom model.
+5. Custom Model shows comparable accuracy to ResNet50 and beats other model while having significantly lower number of "trainable Parameter".
 </pre>
 
 #### Dataset
@@ -13,7 +14,7 @@
 Dataset Name      : Chest X-Ray Images (Pneumonia)
 Dataset Link      : <a href=https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia>Chest X-Ray Images (Pneumonia) Dataset (Kaggle)</a>
                   : <a href=https://data.mendeley.com/datasets/rscbjbr9sj/2>Chest X-Ray Images (Pneumonia) Dataset (Original Dataset)</a>
-Reference Papers   : <a href=https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5>Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning</a>
+Reference Papers  : <a href=https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5>Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning</a>
                    (Daniel S. Kermany, Michael Goldbaum, Wenjia Cai, M. Anthony Lewis, Huimin Xia, Kang Zhang)
                    https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 </pre>
