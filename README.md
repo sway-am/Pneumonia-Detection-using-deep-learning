@@ -29,9 +29,13 @@ Number/Size of Images   : Total      : 5856 (1.15 Gigabyte (GB))
                           Testing    : 320  (35.4 Megabyte (MB))
 </pre>
 
+###Accuracy comparision :
+
+![meta-chart](https://github.com/sway-am/Pneumonia-Detection-using-deep-learning/assets/118014263/cf0a986e-5857-4968-aed6-c36d9f021faa)
+
 #### <b>Model Parameters</b>
 <pre>
-<b> Custom Deep Convolutional Neural Network : </b>
+<b>Custom Deep Convolutional Neural Network : </b>
 <b>Training Parameters : </b>
   
 >> Batch Size               : 32
@@ -102,9 +106,40 @@ Trainable params: 930,849
 Non-trainable params: 1,024
 _________________________________________________________________
 
+
+<b>ResNet 50 : </b>
+<b>Training Parameters : </b>
+  
+>> Batch Size               : 32
+>> Number of Epochs         : 30
+>> Learning Rate            : tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', patience=8)
+>> Total params             : 931,873
+>> Trainable params         : 930,849
+>> Non-trainable params     : 1,024
+
+<b>VGG19: </b>
+<b>Training Parameters : </b>
+  
+>> Batch Size               : 32
+>> Number of Epochs         : 30
+>> Learning Rate            : tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', patience=8)
+>> Total params             : 20090177 (76.64 MB)
+>> Trainable params         : 65793 (257.00 KB)
+>> Non-trainable params     : 20024384 (76.39 MB)
+
+<b>InceptionV3: </b>
+<b>Training Parameters : </b>
+  
+>> Batch Size               : 32
+>> Number of Epochs         : 30
+>> Learning Rate            : tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', patience=8)
+>> Total params             : 22065185 (84.17 MB)
+>>Trainable params          : 262401 (1.00 MB)
+>>Non-trainable params      : 21802784 (83.17 MB)
+  
 </pre>
 
-#### Confusion Matrix and model Evaluations
+#### Confusion Matrix and model Evaluations of Custom Model
 ![Confusion Mt_custom_kagg](https://github.com/sway-am/Pneumonia-Detection-using-deep-learning/assets/118014263/8a0d3d48-fc6a-489b-ab66-d82982c1842c)
 ![Train and val loss_custom_kagg](https://github.com/sway-am/Pneumonia-Detection-using-deep-learning/assets/118014263/9fb5c220-8614-4d53-a3c2-e5c45bd30993)
 ![train and val loss 2_custom_kagg](https://github.com/sway-am/Pneumonia-Detection-using-deep-learning/assets/118014263/b8cf9f50-80a9-4c84-9f69-38006173a244)
