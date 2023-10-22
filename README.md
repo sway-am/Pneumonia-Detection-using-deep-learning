@@ -29,8 +29,11 @@ Number/Size of Images   : Total      : 5856 (1.15 Gigabyte (GB))
                           Testing    : 320  (35.4 Megabyte (MB))
 </pre>
 
-###Accuracy comparision :
-
+#### Accuracy comparision :
+Proposed Method : 92.47%
+ResNet          : 92.78 %
+VGG19           :85.89 %
+InceptionV3     : 84.13 %
 ![meta-chart](https://github.com/sway-am/Pneumonia-Detection-using-deep-learning/assets/118014263/cf0a986e-5857-4968-aed6-c36d9f021faa)
 
 #### <b>Model Parameters</b>
