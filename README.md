@@ -123,7 +123,7 @@ Current Version         : v1.0.0.0
 Last Update             : 24.10.2023
 </pre>
 
-#### Other Refences
+#### Other Reference
 <pre>
   1. <href> https://github.com/anjanatiha/Pneumonia-Detection-from-Chest-X-Ray-Images-with-Deep-Learning/tree/master </href>
   2. <href>https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/code?datasetId=17810&searchQuery=resnet+&language=Python&tagIds=16580</href>
