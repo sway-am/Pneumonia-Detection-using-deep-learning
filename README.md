@@ -6,7 +6,7 @@
 2. Used "ImageDataGenerator" from keras.preprocessing.image for Data argumentation
 3. Implemented a custom CNN architecture producing a test accuracy of 92.47 % and test loss of 0.39.
 4. Implemented Resnet50, VGG 19 and InceptionV3 using transfer learning and compared the results to that of the custom model.
-5. Custom Model shows comparable accuracy to ResNet50 and beats other model while having significantly lower number of "trainable Parameter".
+5. Custom Model shows comparable accuracy to ResNet50 and beats other model while having significantly simpler architecture.
 </pre>
 
 #### Dataset
@@ -119,9 +119,9 @@ _________________________________________________________________
 >> Batch Size               : 32
 >> Number of Epochs         : 30
 >> Learning Rate            : tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', patience=8)
->> Total params             : 931,873
->> Trainable params         : 930,849
->> Non-trainable params     : 1,024
+>> Total params             : 23,827,201 (90.89 MB)
+>> Trainable params         : 262,401 (1.00 MB)
+>> Non-trainable params     : 23,564,800 (89.89 MB)
 
 <b>VGG19: </b>
 <b>Training Parameters : </b>
@@ -129,9 +129,9 @@ _________________________________________________________________
 >> Batch Size               : 32
 >> Number of Epochs         : 30
 >> Learning Rate            : tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', patience=8)
->> Total params             : 20090177 (76.64 MB)
->> Trainable params         : 65793 (257.00 KB)
->> Non-trainable params     : 20024384 (76.39 MB)
+>> Total params             : 20,090,177 (76.64 MB)
+>> Trainable params         : 65,793 (257.00 KB)
+>> Non-trainable params     : 20,024,384 (76.39 MB)
 
 <b>InceptionV3: </b>
 <b>Training Parameters : </b>
@@ -139,9 +139,9 @@ _________________________________________________________________
 >> Batch Size               : 32
 >> Number of Epochs         : 30
 >> Learning Rate            : tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', patience=8)
->> Total params             : 22065185 (84.17 MB)
->>Trainable params          : 262401 (1.00 MB)
->>Non-trainable params      : 21802784 (83.17 MB)
+>> Total params             : 22,065,185 (84.17 MB)
+>> Trainable params         : 262,401 (1.00 MB)
+>> Non-trainable params     : 21,802,784 (83.17 MB)
   
 </pre>
 
