@@ -17,6 +17,9 @@ Dataset Link      : <a href=https://www.kaggle.com/paultimothymooney/chest-xray-
 Reference Papers  : <a href=https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5>Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning</a>
                    (Daniel S. Kermany, Michael Goldbaum, Wenjia Cai, M. Anthony Lewis, Huimin Xia, Kang Zhang)
                    https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
+Other References  : <a href =  https://github.com/anjanatiha/Pneumonia-Detection-from-Chest-X-Ray-Images-with-Deep-Learning/tree/master>https://github.com/anjanatiha/Pneumonia-Detection</a>
+                    <a href =  https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia >https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/</a>
+                    <a href =  https://www.kaggle.com/code/danushkumarv/pneumonia-detection-resnet>https://www.kaggle.com/code/danushkumarv/pneumonia-detection-resnet </a>
 </pre>
 
 
@@ -164,9 +167,3 @@ Current Version         : v1.0.0.0
 Last Update             : 24.10.2023
 </pre>
 
-#### Other Reference
-<pre>
-  1. <href> https://github.com/anjanatiha/Pneumonia-Detection-from-Chest-X-Ray-Images-with-Deep-Learning/tree/master </href>
-  2. <href>https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/code?datasetId=17810&searchQuery=resnet+&language=Python&tagIds=16580</href>
-  3. <href> https://www.kaggle.com/code/danushkumarv/pneumonia-detection-resnet </href>
-</pre>
